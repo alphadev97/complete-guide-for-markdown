@@ -1,62 +1,42 @@
 # Complete Markdown Guide
 
-for h1 use just one #, example:
+## Headings
+
+Use a single "#" for H1, double "##" for H2, and so on, up to H6. For example:
 
 # Heading 1
 
-for h2 use just one ##, example:
-
 ## Heading 2
-
----
-
-for h3 use just one ###, example:
 
 ### Heading 3
 
----
-
-for h4 use just one ####, example:
-
 #### Heading 4
 
----
-
-for h5 use just one #####, example:
-
 ##### Heading 5
-
----
-
-for h6 use just one ######, example:
 
 ###### Heading 6
 
 ---
 
-Normal Text will be normal without any syntax
+## Text Formatting
 
----
-
-for bold text, wrap your word with \*\* \*\*, example:
+To make text bold, wrap it with double asterisks "\*\*", like this:
 
 **BOLD TEXT**
 
----
-
-for italic text, wrap your word with \* \*, example:
+To make text italic, wrap it with single asterisks "\*", like this:
 
 _Italic Text_
 
----
-
-for strikethrough, wrape you text with ~~ ~~, example:
+To add strikethrough text, wrap it with double tildes "~~", like this:
 
 ~~Strikethrough Text~~
 
 ---
 
-for unordered list and sub unorderlist, use -, and for sub tab -, example:
+## Lists
+
+For unordered lists, use a single dash "-" for each item, and for sub-lists, use a tab followed by a single dash "-". For example:
 
 - Item 1
 - Item 2
@@ -65,61 +45,54 @@ for unordered list and sub unorderlist, use -, and for sub tab -, example:
   - item 3b
 - Item 4
 
----
-
-for ordered list, use 1 on all items, example:
+For ordered lists, use "1." for each item. For example:
 
 1. Item 1
 1. Item 2
 1. Item 3
 
----
+For checked and unchecked lists, use "- [ ]" for incomplete items and "- [x]" for completed items. For example:
 
-for checked and unchecked list, use - [] and -[x] accordingly, example:
-
--[] item 1 incomplete
-
--[x] item 2 is complete
+- [ ] item 1 is incomplete
+- [x] item 2 is complete
 
 ---
 
-for hyperlink, use this: [YourKeword](Your Link), example:
+## Links and Images
+
+To add hyperlinks, use square brackets for the keyword followed by parentheses for the link. For example:
 
 [usamadev97](https://github.com/usamadev97)
 
----
-
-for image, use this: ![Alt Text for your image](file path), example:
+To add images, use an exclamation mark followed by square brackets for the alt text and parentheses for the file path. For example:
 
 ![usamadev97](https://avatars.githubusercontent.com/u/116688082?v=4)
 
 ---
 
-for table, use | text | for each column, for text align left use | :--- and for right ---: |, example:
+## Tables
 
-| column 1 | column 2 |
+To create tables, use vertical bars "|" for each column, and use colons ":" to specify text alignment (left, right, or center) within the table. For example:
+
+| Column 1 | Column 2 |
 | :------- | -------: |
-| row1     |     row2 |
+| Row 1    |    Row 2 |
 
 ---
 
-for inline codeblocks, wrap your code in ``, example:
+## Code Blocks
+
+For inline code blocks, wrap your code with single backticks "`", like this:
 
 `console.log("My name is Usama");`
 
-another example for full width codeblocks with three ```, this is best practice.
-
-```
-console.log("This is markdown guide");
-```
-
-for syntax highlighting codeblocks, after ``` use your programming language name, js example:
+For code blocks that span the full width, use triple backticks "```". For syntax highlighting, specify the programming language after the opening triple backticks. For example:
 
 ```js
 console.log("This is markdown guide");
 ```
 
-for showing before and after codeblocks
+For showing before and after code changes, use triple backticks with "diff" after the opening backticks. For example:
 
 ```diff
 - const data = [];
@@ -128,7 +101,9 @@ for showing before and after codeblocks
 
 ---
 
-for suggestions and ideas use this technique:
+## Suggestions and Ideas
+
+To add suggestions and ideas, use blockquotes (">") followed by your text. For example:
 
 > I have idea 1 that is ....
 
@@ -137,5 +112,3 @@ I agree with this
 > also idea 2 ....
 
 I do not agree with this
-
----
