@@ -107,8 +107,35 @@ for inline codeblocks, wrap your code in ``, example:
 
 `console.log("My name is Usama");`
 
-another example with three ```, this is best practice.
+another example for full width codeblocks with three ```, this is best practice.
 
 ```
 console.log("This is markdown guide");
 ```
+
+for syntax highlighting codeblocks, after ``` use your programming language name, js example:
+
+```js
+console.log("This is markdown guide");
+```
+
+for showing before and after codeblocks
+
+```diff
+- const data = [];
++ const data = {};
+```
+
+---
+
+for suggestions and ideas use this technique:
+
+> I have idea 1 that is ....
+
+I agree with this
+
+> also idea 2 ....
+
+I do not agree with this
+
+---
