@@ -112,3 +112,35 @@ I agree with this
 > also idea 2 ....
 
 I do not agree with this
+
+---
+
+# Contributing
+
+We welcome contributions from the community to enhance and improve this Markdown guide. If you have suggestions, corrections, or additional examples, we would love to hear from you! Together, we can make this guide even better.
+
+To contribute, simply follow these steps:
+
+1. Fork the repository to your own GitHub account.
+2. Create a new branch with a descriptive name for your contribution.
+3. Make your changes or additions to the Markdown guide.
+4. Test your changes to ensure they are correct and functional.
+5. Commit and push your changes to your forked repository.
+6. Make sure you update the contributors list with your name and profile image, for intructions check CONTRIBUTION.md.
+7. Submit a pull request with a clear description of your changes.
+
+We appreciate your contributions and efforts to improve this guide. Thank you in advance for your support!
+
+If you're new to contributing to open source projects, don't worry! We're here to help. Feel free to reach out if you have any questions or need assistance with the contribution process. Your contributions are valuable and will be credited in the repository's contributors' list.
+
+---
+
+# Contributors
+
+ <td align="center">
+    <a href="https://github.com/usamadev97">
+        <img src="https://avatars.githubusercontent.com/u/116688082?v=4" width="100px;" alt="Muhammad Usama"/>
+        <br />
+        <sub><b>Muhammad Usama
+    </a>
+</td>
